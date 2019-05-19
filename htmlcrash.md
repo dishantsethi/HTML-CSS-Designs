@@ -17,9 +17,101 @@
 - Placed within the start tag
 - > \<tagname attributename="attribute"> content \</tagname>
 
+## HTML Page Structure
+
+![HTML Page Structure](/html-structure.png)
+
+- Everything is enclosed in \<html> .. \</html> tag
+- \<head> .. \<head> tag has nothing to do with the page content, it has things like page title, link to css files, line to js file, meta data(searching keyword)
+- \<body> .. \<body> have actual markup which is displayed in browser, it has things like paragraph, headings, audio, video, images, dropdowns etc.
+
 ## Lists
 
 ### Unordered Lists
+
+- It is like a bullet point list
+- \<ul> tag for unordered list
+- \<li> tag for list items of unordered list
+- >     <ul> <br>
+  >         <li> Item 1 \</li> <br>
+  >         <li> Item 2 \</li> <br>
+  >     </ul>
+- > - Item 1
+  > - Item 2  
+
+### Ordered Lists
+
+- It gets rid of bullet points and replace them with ordered numbers
+- \<ol> tag for ordered list
+- \<li> tag for list items of ordered list
+- >     <ol>
+  >        <li> Item 1 </li>
+  >        <li> Item 2 </li>
+  >     </ol>
+
+- > 1. Item 1
+  > 2. Item 2
+
+## Tables
+
+- \<table> tag for table
+- \<thead> tag for table headings
+- \<tbody> tag for table data
+- \<tr> tag for table row, present in both thead and tbody
+- \<th> tag for table heading data, present in \<tr> of \<thead>
+- \<td> tag for table body data, present in \<tr> of \<tbody>
+- >      <table>
+  >      <thead>
+  >          <tr>
+  >              <th> Name </th> 
+  >              <th> address </th>
+  >              <th> Email </th> 
+  >          </tr>
+  >      </thead>
+  >      <tbody>
+  >           <tr>
+  >             <td> dishant </td>
+  >              <td> remote </td>
+  >              <td> dishant@dishant </td>
+  >          </tr>
+  >          <tr>
+  >              <td> dhruv </td>
+  >              <td> local </td>
+  >              <td> dhruv@dhruv </td>
+  >          </tr>
+  >          <tr>
+  >              <td> abc </td>
+  >              <td> permanent </td>
+  >              <td> abc@abc </td>
+  >          </tr>
+  >      </tbody>
+  >      </table>
+- <table>
+     <thead>
+       <tr>
+       <th> Name </th> 
+       <th> address </th>
+       <th> Email </th> 
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+       <td> dishant </td>
+       <td> remote </td>
+       <td> dishant@dishant </td>
+       </tr>
+       <tr>
+       <td> dhruv </td>
+       <td> local </td>
+       <td> dhruv@dhruv </td>
+       </tr>
+       <tr>
+       <td> abc </td>
+       <td> permanent </td>
+       <td> abc@abc </td>
+       </tr>
+      </tbody>
+     </table>  
 
 ## Inline vs Block level Elements
 
@@ -34,14 +126,6 @@
 - Start on a new line
 - Take full width available
 - \<div>, \<h1>,..,\<h6>,\<p>,\<form>
-
-## HTML Page Structure
-
-![HTML Page Structure](/html-structure.png)
-
-- Everything is enclosed in \<html> .. \</html> tag
-- \<head> .. \<head> tag has nothing to do with the page content, it has things like page title, link to css files, line to js file, meta data(searching keyword)
-- \<body> .. \<body> have actual markup which is displayed in browser, it has things like paragraph, headings, audio, video, images, dropdowns etc.
 
 ## HTML Cheat Sheet
 
