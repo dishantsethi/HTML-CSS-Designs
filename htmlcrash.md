@@ -113,6 +113,77 @@
       </tbody>
      </table>  
 
+## Forms
+
+- with html we can create actual lookup forms but we cannot add functionality to thw form with html
+- to add functionality we have to use a server side language like php, python etc
+- \<form> tag have action, method attributes
+- action attribute is a server side file where the from is submitted to
+- method is GET/POST request
+- >     <form action="python.py" method="POST">
+  >         <div>
+  >             <label>First Name</label>
+  >             <input type="text" name="firstName" placeholder="Enter First Name">
+  >         </div>
+  >         <div>
+  >             <label>Email</label>
+  >             <input type="email" name="email">
+  >         </div>
+  >         <div>
+  >             <label>Message</label>
+  >             <textarea name="message"></textarea>
+  >         </div>
+  >         <div>
+  >             <label>Gender</label>
+  >             <select name="gender">
+  >                 <option name="Male"> Male </option>
+  >                 <option name="Female"> Female </option>
+  >                  <option name="Other"> Other </option>
+  >             </select>
+  >         </div>
+  >         <div>
+  >             <label>Age</label>
+  >             <input type="number" name="age">
+  >         </div>
+  >         <div>
+  >             <label>Birthday</label>
+  >             <input type="date" name="birthday">
+  >         </div> 
+  >         <input type="submit" name="submit" value="Submit">   
+  >     </form>
+-    <form action="python.py" method="POST">
+       <div>
+       <label>First Name</label>
+       <input type="text" name="firstName" placeholder="Enter First Name">
+        </div>
+        <div>
+          <label>Email</label>
+          <input type="email" name="email">
+        </div>
+        <div>
+           <label>Message</label>
+           <textarea name="message"></textarea>
+        </div>
+        <div>
+           <label>Gender</label>
+           <select name="gender">
+            <option name="Male"> Male </option>
+            <option name="Female"> Female </option>
+            <option name="Other"> Other </option>
+           </select>
+        </div>
+        <div>
+            <label>Age</label>
+            <input type="number" name="age">
+        </div>
+        <div>
+            <label>Birthday</label>
+            <input type="date" name="birthday">
+        </div> 
+          <input type="submit" name="submit" value="Submit">   
+     </form>
+
+
 ## Inline vs Block level Elements
 
 ### Inline Elements
@@ -136,3 +207,5 @@
     - \<h2> Heading two \<h2>
     - \<h6> Heading six \<h6>
 - \<p> tag for paragraphs
+- \<br> tag for line spacing
+- \<hr> tag for horizontal line break
