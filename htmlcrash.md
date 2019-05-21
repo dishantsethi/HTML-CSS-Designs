@@ -183,6 +183,17 @@
           <input type="submit" name="submit" value="Submit">   
      </form>
 
+## Buttons
+
+- \<button> tag
+- >      <button click="someFunction()">Click Me</button>
+- <button click="someFunction()">Click Me</button>
+
+## Images
+
+- \<img> tag
+- >      <img src="path.jpg" alt="image description>
+
 
 ## Inline vs Block level Elements
 
@@ -198,6 +209,16 @@
 - Take full width available
 - \<div>, \<h1>,..,\<h6>,\<p>,\<form>
 
+## HTML5 Semantic Tags
+
+- A semantic tag clearly defines its meaning to both browser and developer
+- \<header> \</header>
+- \<footer> \</footer>
+- \<nav> \</nav>
+- \<aside> \</aside>
+- \<main> \</main>
+- \<section> \</section>
+
 ## HTML Cheat Sheet
 
 - \<!-- content --> for comments
@@ -209,3 +230,9 @@
 - \<p> tag for paragraphs
 - \<br> tag for line spacing
 - \<hr> tag for horizontal line break
+- \<a href="link to any page#">\</a>
+- \<blockquote> Lorem Ipsum .. \</blockquote>
+- \<abbr> tag
+    -     <p> The <abbr title="World Wide Web">WWW</abbr> </p>
+    - <p> The <abbr title="World Wide Web">WWW</abbr> </p>
+- include \<!DOCTYPE html> in starting for html5
